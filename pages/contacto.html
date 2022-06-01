@@ -10,116 +10,134 @@
     <link rel="icon" href="../images/favicon.png" type="image/ico">
     <!--Animate-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
 <body>
-    <div class="grillaContacto">
-        <!--Comienza el header-->
-        <header>
-            <h1 class="titFrizka">Frizka Bags</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a href="contacto.html">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="ayuda.html">Ayuda</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!--Termina el header-->
-        <main>
-            <section>
-                <h2 class="titContacto animate__animated animate__backInLeft">Contacto</h2>
-            <form action="">
-                <fieldset>
-                    <legend class="colorFor">Formulario de contacto</legend><br>
-                    <div>
-                        <label for="nombre">Completa tu Nombre</label>
-                        <input type="text" name="nombre" placeholder="nombre"><br><br>
-                        <label for="apellido">Escribe tu Apellido</label>
-                        <input type="text" name="apellido" placeholder="apellido"><br><br>   
+    <!--Comienza el header-->
+    <header>
+        <h1 class="titFrizka">Frizka Bags</h1>
+     <!--Barra de navegación--> 
+     <nav class="navbar navbar-expand-lg navbar-light colorNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ayuda.html">Ayuda</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>        
+    </header>
+    <!--Termina el header-->
+    <main>
+        <section>
+            <h2 class="titContacto animate__animated animate__backInLeft">Contacto</h2>
+                <div class="container px-4">
+                  <div class="row gx-5">
+                    <div class="col">
+                     <div class="p-3 border ubicacion">
+                       <!--ubicación-->  
+                    <section>
+                      <h2 class="animate__animated animate__bounce"><strong>Dónde nos encontramos!!</strong></h2><br>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13124.298817362756!2d-58.558469699999996!3d-34.678064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62620cce9e5%3A0xa5820481b6d01a6f!2sPeru%202234!5e0!3m2!1ses!2sar!4v1638404067758!5m2!1ses!2sar" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </section>
+                     </div>
                     </div>
-                    <div>
-                        <label for="email"> Escribe tu mail</label>
-                        <input type="email" required><br><br>
-                    </div>
-                    <div>
-                        <label for="pais">Selecciona tu nacionalidad</label>
-                        <select name="pais">
-                            <option value="argentina">ARGENTINA</option>
-                            <option value="colombia">COLOMBIA</option>
-                            <option value="brasil">BRASIL</option>   
-                        </select>
-                        <br><br>           
-                    </div>
-                    <div>
-                        <label for="sexo">Genero</label>
-                        <input type="radio" name="sexo" value="mujer">Mujer
-                        <input type="radio" name="sexo" value="hombre">Hombre
-                        <input type="radio" name="sexo" value="otro">Otro
-                        <br><br>
-                    </div>
-                    <div>
-                        <label for="password">Escribe tu password</label>
-                        <input type="password">
-                        <br><br>
-                    </div>
-                    <div>
-                        <label for="nacimiento">Fecha de Nacimiento</label>
-                        <input type="date" name="nacimiento">
-                        <br><br>
-                    </div>
-                    <div>
-                        <label for="comentarios">Escribe tu mensaje</label><br>
-                        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="enviar datos">
-                        <input type="reset" value="borrar datos">
-                    </div>
-                </fieldset>
-            </form>
-            </section>
-            <section>
-                <h3><strong>Dónde nos encontramos!!</strong></h3><br>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13124.298817362756!2d-58.558469699999996!3d-34.678064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62620cce9e5%3A0xa5820481b6d01a6f!2sPeru%202234!5e0!3m2!1ses!2sar!4v1638404067758!5m2!1ses!2sar" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </section>
-        </main>
-        <!--Comienza el footer-->
-        <footer>
-            <img src="../images/fondof1.png" alt="FondoFrizka" width="250">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="../index.html">Frizka</a>
-                    </li>
-                    <li>
-                        <a href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="ayuda.html">Ayuda</a>
-                    </li>
-                </ul>
-            </nav>
-            <p><strong>Teléfono:</strong> 1150205950</p>
-            <p><strong>Dirección:</strong> Buenos Aires, Argentina</p><hr>
-            <p class="textFooter">Esta web fue creada por Lucas Romero</p>
-            <p class="textFooter">Todos los derechos reservados</p>
-        </footer>
-        <!--termina el footer-->
-    </div>  
+                    <div class="col">
+                      <!--Formulario-->
+                      <section class="p-3 border formulario">
+                      <form action="">
+                        <fieldset>
+                            <legend class="colorFor">Formulario de contacto</legend><br>
+                            <div>
+                                <label for="nombre">Completa tu Nombre</label>
+                                <input type="text" name="nombre" placeholder="nombre"><br><br>
+                                <label for="apellido">Escribe tu Apellido</label>
+                                <input type="text" name="apellido" placeholder="apellido"><br><br>   
+                            </div>
+                            <div>
+                                <label for="email"> Escribe tu mail</label>
+                                <input type="email" required><br><br>
+                            </div>
+                            <div>
+                                <label for="pais">Selecciona tu nacionalidad</label>
+                                <select name="pais">
+                                    <option value="argentina">ARGENTINA</option>
+                                    <option value="colombia">COLOMBIA</option>
+                                    <option value="brasil">BRASIL</option>   
+                                </select>
+                                <br><br>           
+                            </div>
+                            <div>
+                                <label for="sexo">Genero</label>
+                                <input type="radio" name="sexo" value="mujer">Mujer
+                                <input type="radio" name="sexo" value="hombre">Hombre
+                                <input type="radio" name="sexo" value="otro">Otro
+                                <br><br>
+                            </div>
+                            <div>
+                                <label for="password">Escribe tu password</label>
+                                <input type="password">
+                                <br><br>
+                            </div>
+                            <div>
+                                <label for="nacimiento">Fecha de Nacimiento</label>
+                                <input type="date" name="nacimiento">
+                                <br><br>
+                            </div>
+                            <div>
+                                <label for="comentarios">Escribe tu mensaje</label><br>
+                                <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="enviar datos">
+                                <input type="reset" value="borrar datos">
+                            </div>
+                        </fieldset>
+                    </form>
+                    </section>
+       
+                </main>
+    </main>
+    <!--Comienza el footer-->
+    <footer>
+        <img src="../images/fondof1.png" alt="FondoFrizka" width="250">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Frizka</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="ayuda.html">Ayuda</a>
+                </li>
+            </ul>
+        </nav>
+        <p><strong>Teléfono:</strong> 1150205950</p>
+        <p><strong>Dirección:</strong> Buenos Aires, Argentina</p><hr>
+        <p class="textFooter">Esta web fue creada por Lucas Romero</p>
+        <p class="textFooter">Todos los derechos reservados</p>
+    </footer>
+    <!--termina el footer-->
 </body>
 </html>

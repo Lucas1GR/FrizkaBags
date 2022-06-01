@@ -10,68 +10,114 @@
     <link rel="icon" href="images/favicon.png" type="image/ico">
     <!--Animate-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="css/style.css">
     <title>Frizka Bags</title>
 </head>
 <body>
-    <div class="grillaHome">
-        <!--Comienza el header-->
-        <header>
-            <h1 class="titFrizka">Frizka Bags</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="pages/productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a href="pages/contacto.html">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="pages/ayuda.html">Ayuda</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!--Termina el header-->
-        <main>
-            <section>
-    
-                <!--Productos destacados (imagenes)-->
-                
-                <h2 class="titDestacados animate__animated animate__backInLeft">Destacados</h2>
-                <div class="imgDestacada">
-                  <img class="bordeRedondeado" src="images/frizka1.jpg" width="400px" alt="destacada 1">
-                  <img class="bordeRedondeado" src="images/frizka2.jpg" width="430px" alt="destacada 2">
-                  <img class="bordeRedondeado" src="images/frizka3.jpg" width="400px" alt="destacada 3"><br><br>
+    <!--Comienza el header-->
+    <header>
+        <h1 class="titFrizka">Frizka Bags</h1>
+     <!--Barra de navegación--> 
+     <nav class="navbar navbar-expand-lg navbar-light colorNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/ayuda.html">Ayuda</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>        
+    </header>
+    <!--Termina el header-->
+    <main>
+        <section>
+
+            <!--Productos destacados (imagenes)-->
+            
+            <h2 class="titDestacados animate__animated animate__backInLeft">Destacados</h2>
+            <div class="imgDestacada">
+              <img class="bordeRedondeado" src="images/frizka1.jpg" width="400px" alt="destacada 1">
+              <img class="bordeRedondeado" src="images/frizka2.jpg" width="430px" alt="destacada 2">
+              <img class="bordeRedondeado" src="images/frizka3.jpg" width="400px" alt="destacada 3"><br><br>
+            </div>
+            </section>
+    <!--Menú-->
+    <main>
+        <section>
+            <h2 class="titDestacados animate__animated animate__backInLeft">Promos!</h2>
+            <div class="container">
+                <div class="area1">
+                  <img class="img-fluid" src=""alt="">
                 </div>
-                </section>
-        </main>
-        <!--Comienza el footer-->
-        <footer>
-            <img src="images/fondof1.png" alt="FondoFrizka" width="250">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="pages/ayuda.html">Ayuda</a>
-                    </li>
-                    <li>
-                        <a href="pages/nosotros.html">Nosotros</a>
-                    </li>
-                </ul>
-            </nav>
-            <p><strong>Teléfono:</strong> 1150205950</p>
-            <p><strong>Dirección:</strong> Buenos Aires, Argentina</p><hr>
-            <p class="textFooter">Esta web fue creada por Lucas Romero</p>
-            <p class="textFooter">Todos los derechos reservados</p>
-        </footer>
-        <!--Termina el footer-->
-    </div>
+              <div class="area2">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/eva (1).jpeg" class="d-block " alt="promo1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/eva (2).jpeg" class="d-block " alt="promo2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/eva (4).jpeg" class="d-block " alt="promo3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+        </section>
+      </main>
+    </main>
+    <!--Comienza el footer-->
+    <footer>
+        <img src="images/fondof1.png" alt="FondoFrizka" width="250">
+        <nav>
+            <ul>
+                <li>
+                    <a href="pages/ayuda.html">Ayuda</a>
+                </li>
+                <li>
+                    <a href="pages/nosotros.html">Nosotros</a>
+                </li>
+            </ul>
+        </nav>
+        <p><strong>Teléfono:</strong> 1150205950</p>
+        <p><strong>Dirección:</strong> Buenos Aires, Argentina</p><hr>
+        <p class="textFooter">Esta web fue creada por Lucas Romero</p>
+        <p class="textFooter">Todos los derechos reservados</p>
+    </footer>
+    <!--Termina el footer-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
 </body>
 </html>
