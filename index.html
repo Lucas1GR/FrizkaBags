@@ -23,16 +23,18 @@
 <body>
     <!--Comienza el header-->
     <header>
-        <h1 class="titFrizka">Frizka Bags</h1>
+      <h1 class="titFrizka">Frizka Bags</h1>
      <!--Barra de navegación--> 
-     <nav class="navbar navbar-expand-lg navbar-light colorNav">
+     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="pages/productos.html">Productos</a>
               </li>
@@ -60,7 +62,36 @@
               <img class="bordeRedondeado" src="images/frizka2.jpg" width="430px" alt="destacada 2">
               <img class="bordeRedondeado" src="images/frizka3.jpg" width="400px" alt="destacada 3"><br><br>
             </div>
-        </section> 
+        </section>
+        <section class="carousel-des">
+          <h3 class="titDestacados animate__animated animate__backInLeft">Nuevos Modelos</h3>
+          <div id="carouselExampleIndicators" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/eva (1).jpeg" class="d-block w-100" width="800" alt="Destacada1">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/eva (2).jpeg" class="d-block w-100" width="800" alt="Destacada2">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/eva (3).jpeg" class="d-block w-100" width="800" alt="Destacada3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </section> 
     </main>
     <!--Comienza el footer-->
     <footer>

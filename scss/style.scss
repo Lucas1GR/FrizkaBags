@@ -8,6 +8,9 @@
     font-weight: 100;
     font-style: normal;
 }
+
+/* Body */ 
+
 body{ 
     background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 100%, #c8d7dc 100%, #e3eaed 100%);
     h3{
@@ -32,13 +35,16 @@ body{
             font-size: 80px;
             letter-spacing: 13px;
             padding: 10px;
-        }
+        } 
         nav{
+            display: flex; 
+            justify-content: flex-end;
+            flex-direction: column; 
             ul{
+                display: flex;
                 list-style: none;
                 padding: 0;
                 margin: 0;
-                display: flex;
                 justify-content: flex-end;
                 margin: 20px;
                 list-style-type: square;
@@ -46,13 +52,12 @@ body{
                 font-style: italic;
                 font-size:20px;
                 font-family: 'Times New Roman', Times, serif;
-                a{
-                    color: black;
-                    text-decoration: none;
-                    padding: 0.7rem;
-                    display: block;
-                }
                 li{
+                    a{
+                        color: black;
+                        text-decoration: none;
+                        padding: 0.7rem;
+                    }
                     a:hover{
                         background-color: cadetblue;
                         color: black;
@@ -62,6 +67,9 @@ body{
             }
         }
     }
+
+/* Footer */
+
     footer{
         background: linear-gradient(to bottom,  rgba(200,215,220,1) 0%,rgba(242,245,246,1) 61%,rgba(242,245,246,1) 61%,rgba(242,245,246,1) 100%);
         .textFooter{
@@ -71,10 +79,10 @@ body{
         }
         nav{
             ul{
+                display: flex;
                 list-style: none;
                 padding: 0;
                 margin: 0;
-                display: flex;
                 justify-content: flex-end;
                 margin: 20px;
                 list-style-type: square;
@@ -82,13 +90,13 @@ body{
                 font-style: italic;
                 font-size: 20px;
                 font-family: 'Times New Roman', Times, serif;
-                a{
-                    color: black;
-                    text-decoration: none;
-                    padding: 0.7rem;
-                    display: block;
-                }
                 li{
+                    list-style: none;
+                    a{
+                        color: black;
+                        text-decoration: none;
+                        padding: 0.7rem;
+                    }
                     a:hover{
                         background-color: cadetblue;
                         color: black;
@@ -230,28 +238,31 @@ body{
 /* Media */
 
 @media (max-width: 768px){
-    nav ul{
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: flex-start;
-    }
-    .titFrizka{
-        font-weight: normal;
-        font-family: 'Italianno', cursive;
-        font-size: 80px;
-        letter-spacing: 13px;
-        padding: 10px;
-        text-align: center;
-    }
-    .bordeRedondeado{
-        border-radius: 25%;
-        width: 250px;
-    }
-    .bordeRedondeado:hover{
-        transform: scale(1.2, 1.2);
-        transition: all 1s ease;
-        border: black 1px solid;
+    body{
+        header{
+            .titFrizka{
+                font-weight: normal;
+                font-family: 'Italianno', cursive;
+                font-size: 80px;
+                letter-spacing: 13px;
+                padding: 10px;
+                text-align: center;
+            }
+        }
+        main{
+            section{
+                .imgDestacada{
+                    .bordeRedondeado{
+                        border-radius: 25%;
+                        width: 250px;
+                    }
+                    .bordeRedondeado:hover{
+                        transform: scale(1.2, 1.2);
+                        transition: all 1s ease;
+                        border: black 1px solid;
+                    }
+                }
+            }
+        }
     }
 }
