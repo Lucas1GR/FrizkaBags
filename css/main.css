@@ -203,7 +203,7 @@ body main .titProductos {
     font-size: 11px; }
   body main section .fotoHorarios {
     width: 280px; }
-  body section .titAyuda {
+  body main section .titAyuda {
     text-align: center;
     font-weight: normal;
     font-family: 'Amatic SC', cursive;
@@ -213,15 +213,15 @@ body main .titProductos {
     margin: 30px;
     background-color: #24272E;
     color: white; }
-  body .imagenesIndex .imgDestacada .bordeRedondeado {
+  body main .imagenesIndex .imgDestacada .bordeRedondeado {
     border-radius: 25%;
     width: 200px;
     margin: 20px; }
-  body .imagenesIndex .imgDestacada .bordeRedondeado:hover {
+  body main .imagenesIndex .imgDestacada .bordeRedondeado:hover {
     transform: scale(1.2, 1.2);
     transition: all 1s ease;
     border: black 1px solid; }
-  body .imagenesIndex .imgDestacada .titDestacados {
+  body main .imagenesIndex .imgDestacada .titDestacados {
     text-align: center;
     font-weight: normal;
     font-family: 'Amatic SC', cursive;
