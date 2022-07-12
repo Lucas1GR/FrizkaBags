@@ -47,6 +47,8 @@ body {
         font-weight: bold; }
   body footer {
     background: #C6CAD2; }
+    body footer .frizkaLogo {
+      width: 200px; }
     body footer h6 {
       background-color: #24272E;
       color: white;
@@ -95,9 +97,9 @@ body main .imagenesIndex .imgDestacada {
   margin: 6rem; }
 
 body main .imagenesIndex .bordeRedondeado {
-  border-radius: 25%;
+  border-radius: 15%;
   width: 250px;
-  margin: 100px; }
+  margin: 50px; }
 
 body main .imagenesIndex .bordeRedondeado:hover {
   transform: scale(1.6, 1.6);
@@ -181,6 +183,10 @@ body main .titProductos {
     letter-spacing: 2px;
     background-color: #DAD2BC;
     color: black; }
+  body footer .textFooter {
+    font-size: 10px; }
+  body footer .frizkaLogo {
+    width: 100px; }
   body footer .foChiqui {
     font-size: 10px; }
   body footer .foPeque {
@@ -195,7 +201,27 @@ body main .titProductos {
     color: white;
     text-align: center;
     font-size: 11px; }
-  body main .imagenesIndex .titDestacados {
+  body main section .fotoHorarios {
+    width: 280px; }
+  body section .titAyuda {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  body .imagenesIndex .imgDestacada .bordeRedondeado {
+    border-radius: 25%;
+    width: 200px;
+    margin: 20px; }
+  body .imagenesIndex .imgDestacada .bordeRedondeado:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 1s ease;
+    border: black 1px solid; }
+  body .imagenesIndex .imgDestacada .titDestacados {
     text-align: center;
     font-weight: normal;
     font-family: 'Amatic SC', cursive;
@@ -213,23 +239,4 @@ body main .titProductos {
     font-size: 40px;
     letter-spacing: 13px;
     padding: 10px;
-    text-align: center; }
-  body main section .fotoHorarios {
-    width: 280px; }
-  body section .titAyuda {
-    text-align: center;
-    font-weight: normal;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Cinzel', serif;
-    font-size: 25px;
-    letter-spacing: 8px;
-    margin: 30px;
-    background-color: #24272E;
-    color: white; }
-  body section .imgDestacada .bordeRedondeado {
-    border-radius: 25%;
-    width: 450px; }
-  body section .imgDestacada .bordeRedondeado:hover {
-    transform: scale(1.5, 1.5);
-    transition: all 1s ease;
-    border: black 1px solid; } }
+    text-align: center; } }
