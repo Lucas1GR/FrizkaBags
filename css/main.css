@@ -3,140 +3,140 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
+  font-family: 'Finlandica', sans-serif;
   font-style: normal; }
 
 /* Body */
 body {
-  background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 100%, #c8d7dc 100%, #e3eaed 100%);
+  background: whitesmoke;
   /* Footer */ }
   body h3 {
     text-align: center;
     font-weight: normal;
     font-size: 25px;
     letter-spacing: 2px;
-    background-color: cadetblue;
+    background-color: #DAD2BC;
     color: black; }
   body p {
-    font-style: italic;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.2; }
+    font-family: 'Cinzel', serif;
+    font-size: 20px; }
   body header {
-    background: linear-gradient(to bottom, #f2f5f6 0%, #c8d7dc 100%, #e3eaed 100%); }
+    background: #C4B9AB; }
+    body header .cuota {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-size: 18px; }
     body header .titFrizka {
-      font-weight: normal;
-      font-family: 'Italianno', cursive;
-      font-size: 80px;
+      font-family: 'Cinzel', serif;
+      font-size: 45px;
       letter-spacing: 13px;
-      padding: 10px; }
+      padding: 15px;
+      margin: 50;
+      text-align: center; }
     body header nav ul {
-      display: flex;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      justify-content: flex-end;
-      margin: 20px;
-      list-style-type: square;
-      list-style-position: outside;
-      font-style: italic;
-      font-size: 20px;
-      font-family: 'Times New Roman', Times, serif; }
+      padding: 5px;
+      letter-spacing: 2px;
+      font-size: 19px; }
       body header nav ul li a {
         color: black;
-        text-decoration: none;
-        padding: 0.7rem; }
+        text-decoration: none; }
       body header nav ul li a:hover {
-        background-color: cadetblue;
+        background-color: #868C98;
         color: black;
         font-weight: bold; }
   body footer {
-    background: linear-gradient(to bottom, #c8d7dc 0%, #f2f5f6 61%, #f2f5f6 61%, #f2f5f6 100%); }
+    background: #C6CAD2; }
+    body footer h6 {
+      background-color: #24272E;
+      color: white;
+      text-align: center; }
+    body footer h5 {
+      background-color: #24272E;
+      color: white;
+      text-align: center; }
     body footer .textFooter {
+      font-family: 'Finlandica', sans-serif;
+      background: #C6CAD2;
       text-align: center;
       font-size: 15px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+      margin: auto; }
     body footer nav ul {
-      display: flex;
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      justify-content: flex-end;
-      margin: 20px;
-      list-style-type: square;
-      list-style-position: outside;
-      font-style: italic;
-      font-size: 20px;
-      font-family: 'Times New Roman', Times, serif; }
-      body footer nav ul li {
-        list-style: none; }
-        body footer nav ul li a {
-          color: black;
-          text-decoration: none;
-          padding: 0.7rem; }
-        body footer nav ul li a:hover {
-          background-color: cadetblue;
-          color: black;
-          font-weight: bold; }
-    body footer .footerImag {
-      display: flex;
-      justify-content: flex-end;
-      margin: 20px;
-      flex-direction: row; }
+      font-size: 18px; }
+      body footer nav ul li a {
+        color: black;
+        text-decoration: none; }
+      body footer nav ul li a:hover {
+        background-color: #868C98;
+        color: #DAD2BC;
+        font-weight: bold; }
 
 /* Estilos index */
-body main section .titDestacados {
+body main .imgCentrada {
+  display: flex;
+  justify-content: center; }
+
+body main .imagenesIndex .titDestacados {
   text-align: center;
   font-weight: normal;
-  font-family: 'Italianno', cursive;
-  font-size: 55px;
-  letter-spacing: 13px;
-  margin: 50px;
-  background-color: #4ca8ac; }
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-size: 45px;
+  letter-spacing: 8px;
+  margin: 30px;
+  background-color: #24272E;
+  color: white; }
 
-body main section .imgDestacada {
+body main .imagenesIndex .imgDestacada {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 6rem; }
-  body main section .imgDestacada .bordeRedondeado {
-    border-radius: 25%; }
-  body main section .imgDestacada .bordeRedondeado:hover {
-    transform: scale(1.3, 1.3);
-    transition: all 1s ease;
-    border: black 1px solid; }
+
+body main .imagenesIndex .bordeRedondeado {
+  border-radius: 25%;
+  width: 250px;
+  margin: 100px; }
+
+body main .imagenesIndex .bordeRedondeado:hover {
+  transform: scale(1.6, 1.6);
+  transition: all 1s ease;
+  border: black 1px solid; }
 
 /* Estilos Ayuda */
 body main section .titAyuda {
   text-align: center;
   font-weight: normal;
-  font-family: 'Italianno', cursive;
-  font-size: 55px;
-  letter-spacing: 13px;
-  margin: 50px;
-  background-color: #4ca8ac; }
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-size: 45px;
+  letter-spacing: 8px;
+  margin: 30px;
+  background-color: #24272E;
+  color: white; }
 
 /* Estilos Contacto */
 body main section .titContacto {
   text-align: center;
   font-weight: normal;
-  font-family: 'Italianno', cursive;
-  font-size: 55px;
-  letter-spacing: 13px;
-  margin: 50px;
-  background-color: #4ca8ac; }
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-size: 45px;
+  letter-spacing: 8px;
+  margin: 30px;
+  background-color: #24272E;
+  color: white; }
   body main section .titContacto section h3 {
     text-align: center;
     font-weight: normal;
     font-size: 25px;
     letter-spacing: 2px;
-    background-color: cadetblue;
-    color: black; }
+    background-color: #24272E;
+    color: white; }
   body main section .titContacto .colorFor {
-    background-color: cadetblue;
-    color: black;
+    background-color: #24272E;
+    color: white;
     font-weight: normal;
     font-size: 25px;
     letter-spacing: 2px; }
@@ -145,41 +145,91 @@ body main section .titContacto {
 body main section .titSomos {
   text-align: center;
   font-weight: normal;
-  font-family: 'Italianno', cursive;
-  font-size: 55px;
-  letter-spacing: 13px;
-  margin: 50px;
-  background-color: #4ca8ac; }
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-size: 45px;
+  letter-spacing: 8px;
+  margin: 30px;
+  background-color: #24272E;
+  color: white; }
 
 body main section .flexNos {
   display: flex;
   flex-direction: column; }
   body main section .flexNos .nosP {
-    padding: 100px; }
+    padding: 100px;
+    color: black; }
 
 /* Estilos Productos */
 body main .titProductos {
   text-align: center;
   font-weight: normal;
-  font-family: 'Italianno', cursive;
-  font-size: 55px;
-  letter-spacing: 13px;
-  margin: 50px;
-  background-color: #4ca8ac; }
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cinzel', serif;
+  font-size: 45px;
+  letter-spacing: 8px;
+  margin: 30px;
+  background-color: #24272E;
+  color: white; }
 
 /* Media */
 @media (max-width: 768px) {
-  body header .titFrizka {
+  body h3 {
+    text-align: center;
     font-weight: normal;
-    font-family: 'Italianno', cursive;
-    font-size: 80px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: #DAD2BC;
+    color: black; }
+  body footer .foChiqui {
+    font-size: 10px; }
+  body footer .foPeque {
+    font-size: 10px; }
+  body footer h6 {
+    background-color: #24272E;
+    color: white;
+    text-align: center;
+    font-size: 11px; }
+  body footer h5 {
+    background-color: #24272E;
+    color: white;
+    text-align: center;
+    font-size: 11px; }
+  body main .imagenesIndex .titDestacados {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  body header .cuota {
+    font-size: 13px; }
+  body header .titFrizka {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
     letter-spacing: 13px;
     padding: 10px;
     text-align: center; }
-  body main section .imgDestacada .bordeRedondeado {
+  body main section .fotoHorarios {
+    width: 280px; }
+  body section .titAyuda {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  body section .imgDestacada .bordeRedondeado {
     border-radius: 25%;
-    width: 250px; }
-  body main section .imgDestacada .bordeRedondeado:hover {
-    transform: scale(1.2, 1.2);
+    width: 450px; }
+  body section .imgDestacada .bordeRedondeado:hover {
+    transform: scale(1.5, 1.5);
     transition: all 1s ease;
     border: black 1px solid; } }

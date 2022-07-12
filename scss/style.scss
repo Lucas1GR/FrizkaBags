@@ -4,59 +4,54 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-family: 'Finlandica', sans-serif;
     font-style: normal;
 }
 
 /* Body */ 
 
 body{ 
-    background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 100%, #c8d7dc 100%, #e3eaed 100%);
+    background: whitesmoke;
     h3{
         text-align: center;
         font-weight: normal;
         font-size: 25px;
         letter-spacing: 2px; 
-        background-color: cadetblue;
+        background-color: #DAD2BC;
         color: black;
     }
     p{
-        font-style: italic;
+        font-family: 'Cinzel', serif;
         font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        line-height: 1.2;
     }
     header{
-        background: linear-gradient(to bottom, #f2f5f6 0%, #c8d7dc 100%, #e3eaed 100%);
+        .cuota{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+        background: #C4B9AB;
         .titFrizka{
-            font-weight: normal;
-            font-family: 'Italianno', cursive;
-            font-size: 80px;
+            font-family: 'Cinzel', serif;
+            font-size: 45px;
             letter-spacing: 13px;
-            padding: 10px;
+            padding: 15px;
+            margin: 50;
+            text-align: center;
         } 
         nav{
             ul{
-                display: flex;
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                justify-content: flex-end;
-                margin: 20px;
-                list-style-type: square;
-                list-style-position: outside;
-                font-style: italic;
-                font-size:20px;
-                font-family: 'Times New Roman', Times, serif;
+                padding: 5px;
+                letter-spacing: 2px;
+                font-size: 19px;
                 li{
                     a{
                         color: black;
                         text-decoration: none;
-                        padding: 0.7rem;
                     }
                     a:hover{
-                        background-color: cadetblue;
+                        background-color: #868C98;
                         color: black;
                         font-weight: bold;
                     }
@@ -68,45 +63,39 @@ body{
 /* Footer */
 
     footer{
-        background: linear-gradient(to bottom,  rgba(200,215,220,1) 0%,rgba(242,245,246,1) 61%,rgba(242,245,246,1) 61%,rgba(242,245,246,1) 100%);
+        background: #C6CAD2;
+        h6{
+            background-color: #24272E;
+            color: white;
+            text-align: center;
+        }
+        h5{
+            background-color: #24272E;
+            color: white;
+            text-align: center; 
+        }
         .textFooter{
+            font-family: 'Finlandica', sans-serif;
+            background: #C6CAD2;
             text-align: center;
             font-size: 15px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: auto;
         }
         nav{
             ul{
-                display: flex;
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                justify-content: flex-end;
-                margin: 20px;
-                list-style-type: square;
-                list-style-position: outside;
-                font-style: italic;
-                font-size: 20px;
-                font-family: 'Times New Roman', Times, serif;
+                font-size: 18px;
                 li{
-                    list-style: none;
                     a{
                         color: black;
                         text-decoration: none;
-                        padding: 0.7rem;
                     }
                     a:hover{
-                        background-color: cadetblue;
-                        color: black;
+                        background-color: #868C98;
+                        color: #DAD2BC;
                         font-weight: bold;
                     }
                 }
             }
-        }
-        .footerImag{
-            display: flex;
-            justify-content: flex-end;
-            margin: 20px;
-            flex-direction: row;
         }
     }
 }
@@ -115,15 +104,21 @@ body{
 
 body{
     main{
-        section{
+        .imgCentrada{
+            display: flex;
+            justify-content: center;
+        }
+        .imagenesIndex{
             .titDestacados{
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Italianno', cursive;
-                font-size: 55px;
-                letter-spacing: 13px;
-                margin: 50px;
-                background-color: rgb(76, 168, 172);
+                font-family: 'Amatic SC', cursive;
+                font-family: 'Cinzel', serif;
+                font-size: 45px;
+                letter-spacing: 8px;
+                margin: 30px;
+                background-color: #24272E;
+                color: white;
             }
             .imgDestacada{
                 display: flex;
@@ -131,32 +126,36 @@ body{
                 flex-wrap: wrap;
                 justify-content: space-around;
                 margin: 6rem;
+            }
                 .bordeRedondeado{
                     border-radius: 25%;
+                    width: 250px;
+                    margin: 100px;
                 }
                 .bordeRedondeado:hover{
-                    transform: scale(1.3, 1.3);
+                    transform: scale(1.6,1.6);
                     transition: all 1s ease;
                     border: black 1px solid;
                 }
             }
         }
     }
-}
 
 /* Estilos Ayuda */
 
 body{
     main{
-        section{
+        section{              
             .titAyuda{
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Italianno', cursive;
-                font-size: 55px;
-                letter-spacing: 13px;
-                margin: 50px;
-                background-color: rgb(76, 168, 172);
+                font-family: 'Amatic SC', cursive;
+                font-family: 'Cinzel', serif;
+                font-size: 45px;
+                letter-spacing: 8px;
+                margin: 30px;
+                background-color: #24272E;
+                color: white;
             }
         }
     }
@@ -170,24 +169,26 @@ body{
             .titContacto{
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Italianno', cursive;
-                font-size: 55px;
-                letter-spacing: 13px;
-                margin: 50px;
-                background-color: rgb(76, 168, 172);
+                font-family: 'Amatic SC', cursive;
+                font-family: 'Cinzel', serif;
+                font-size: 45px;
+                letter-spacing: 8px;
+                margin: 30px;
+                background-color: #24272E;
+                color: white;
                 section{
                     h3{
                         text-align: center;
                         font-weight: normal;
                         font-size: 25px;
                         letter-spacing: 2px; 
-                        background-color: cadetblue;
-                        color: black;
+                        background-color: #24272E;
+                        color: white;
                     }
                 }
                 .colorFor{
-                    background-color: cadetblue;
-                    color: black;
+                    background-color: #24272E;
+                    color: white;
                     font-weight: normal;
                     font-size: 25px;
                     letter-spacing: 2px
@@ -201,21 +202,24 @@ body{
 
 body{
     main{
-        section{
+        section{ 
             .titSomos{
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Italianno', cursive;
-                font-size: 55px;
-                letter-spacing: 13px;
-                margin: 50px;
-                background-color: rgb(76, 168, 172);
+                font-family: 'Amatic SC', cursive;
+                font-family: 'Cinzel', serif;
+                font-size: 45px;
+                letter-spacing: 8px;
+                margin: 30px;
+                background-color: #24272E;
+                color: white;
             }
             .flexNos{
                 display: flex;
                 flex-direction: column;
                 .nosP{
                     padding: 100px;
+                    color: black;
                 }
             }
         }
@@ -229,11 +233,13 @@ body{
         .titProductos{
             text-align: center;
             font-weight: normal;
-            font-family: 'Italianno', cursive;
-            font-size: 55px;
-            letter-spacing: 13px;
-            margin: 50px;
-            background-color: rgb(76, 168, 172);
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Cinzel', serif;
+            font-size: 45px;
+            letter-spacing: 8px;
+            margin: 30px;
+            background-color: #24272E;
+            color: white;
         }
     }
 }
@@ -242,11 +248,57 @@ body{
 
 @media (max-width: 768px){
     body{
+        h3{
+            text-align: center;
+            font-weight: normal;
+            font-size: 15px;
+            letter-spacing: 2px; 
+            background-color: #DAD2BC;
+            color: black;
+        }
+        footer{
+            .foChiqui{
+                font-size: 10px;
+            }
+            .foPeque{
+                font-size: 10px;
+            }
+            h6{
+                background-color: #24272E;
+                color: white;
+                text-align: center;
+                font-size: 11px;
+            }
+            h5{
+                background-color: #24272E;
+                color: white;
+                text-align: center;
+                font-size: 11px; 
+            }
+        }
+        main{
+            .imagenesIndex{
+                .titDestacados{
+                    text-align: center;
+                    font-weight: normal;
+                    font-family: 'Amatic SC', cursive;
+                    font-family: 'Cinzel', serif;
+                    font-size: 25px;
+                    letter-spacing: 8px;
+                    margin: 30px;
+                    background-color: #24272E;
+                    color: white;
+                }
+            }
+        }
         header{
+            .cuota{
+                font-size: 13px;
+            }
             .titFrizka{
-                font-weight: normal;
-                font-family: 'Italianno', cursive;
-                font-size: 80px;
+                font-family: 'Amatic SC', cursive;
+                font-family: 'Cinzel', serif;
+                font-size: 40px;
                 letter-spacing: 13px;
                 padding: 10px;
                 text-align: center;
@@ -254,16 +306,32 @@ body{
         }
         main{
             section{
+                .fotoHorarios{
+                    width: 280px;
+                }
+            }
+            }
+            section{
+                .titAyuda{
+                    text-align: center;
+                    font-weight: normal;
+                    font-family: 'Amatic SC', cursive;
+                    font-family: 'Cinzel', serif;
+                    font-size: 25px;
+                    letter-spacing: 8px;
+                    margin: 30px;
+                    background-color: #24272E;
+                    color: white;
+                }
                 .imgDestacada{
                     .bordeRedondeado{
                         border-radius: 25%;
-                        width: 250px;
+                        width: 450px;
                     }
                     .bordeRedondeado:hover{
-                        transform: scale(1.2, 1.2);
+                        transform: scale(1.5, 1.5);
                         transition: all 1s ease;
                         border: black 1px solid;
-                    }
                 }
             }
         }
