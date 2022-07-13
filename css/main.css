@@ -10,6 +10,9 @@
 body {
   background: whitesmoke;
   /* Footer */ }
+  body p {
+    font-family: 'Cinzel', serif;
+    font-size: 20px; }
   body h3 {
     text-align: center;
     font-weight: normal;
@@ -17,11 +20,8 @@ body {
     letter-spacing: 2px;
     background-color: #DAD2BC;
     color: black; }
-  body p {
-    font-family: 'Cinzel', serif;
-    font-size: 20px; }
   body header {
-    background: #C4B9AB; }
+    background: #eaebee; }
     body header .cuota {
       background-color: black;
       color: white;
@@ -47,13 +47,17 @@ body {
         font-weight: bold; }
   body footer {
     background: #C6CAD2; }
+    body footer .foChiqui {
+      font-size: 16px; }
     body footer .frizkaLogo {
       width: 200px; }
     body footer h6 {
+      margin-top: 5px;
       background-color: #24272E;
       color: white;
       text-align: center; }
     body footer h5 {
+      margin-top: 5px;
       background-color: #24272E;
       color: white;
       text-align: center; }
@@ -61,7 +65,7 @@ body {
       font-family: 'Finlandica', sans-serif;
       background: #C6CAD2;
       text-align: center;
-      font-size: 15px;
+      font-size: 13px;
       margin: auto; }
     body footer nav ul {
       font-size: 18px; }
@@ -81,9 +85,8 @@ body main .imgCentrada {
 body main .imagenesIndex .titDestacados {
   text-align: center;
   font-weight: normal;
-  font-family: 'Amatic SC', cursive;
   font-family: 'Cinzel', serif;
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: 8px;
   margin: 30px;
   background-color: #24272E;
@@ -106,13 +109,23 @@ body main .imagenesIndex .bordeRedondeado:hover {
   transition: all 1s ease;
   border: black 1px solid; }
 
+body main .tamanio {
+  padding: 25px; }
+
+body main .mona {
+  background-image: url("../images/friska png 2 (1) (1).png");
+  background-position: -13px 20px; }
+
 /* Estilos Ayuda */
+body main section .respuestas {
+  font-size: 20px;
+  text-align: center; }
+
 body main section .titAyuda {
   text-align: center;
   font-weight: normal;
-  font-family: 'Amatic SC', cursive;
   font-family: 'Cinzel', serif;
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: 8px;
   margin: 30px;
   background-color: #24272E;
@@ -122,9 +135,8 @@ body main section .titAyuda {
 body main section .titContacto {
   text-align: center;
   font-weight: normal;
-  font-family: 'Amatic SC', cursive;
   font-family: 'Cinzel', serif;
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: 8px;
   margin: 30px;
   background-color: #24272E;
@@ -144,31 +156,38 @@ body main section .titContacto {
     letter-spacing: 2px; }
 
 /* Estilos Nosotros */
-body main section .titSomos {
-  text-align: center;
-  font-weight: normal;
-  font-family: 'Amatic SC', cursive;
-  font-family: 'Cinzel', serif;
-  font-size: 45px;
-  letter-spacing: 8px;
-  margin: 30px;
-  background-color: #24272E;
-  color: white; }
-
-body main section .flexNos {
-  display: flex;
-  flex-direction: column; }
-  body main section .flexNos .nosP {
-    padding: 100px;
-    color: black; }
+.bodyNosotros {
+  background-image: url("../images/Bags.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .bodyNosotros main section .titSomos {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    font-size: 35px;
+    letter-spacing: 8px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  .bodyNosotros main section .flexNos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .bodyNosotros main section .flexNos .nosP {
+      padding: 15px;
+      color: black; }
+  .bodyNosotros main section .monita {
+    width: 450px; }
 
 /* Estilos Productos */
 body main .titProductos {
   text-align: center;
   font-weight: normal;
-  font-family: 'Amatic SC', cursive;
   font-family: 'Cinzel', serif;
-  font-size: 45px;
+  font-size: 35px;
   letter-spacing: 8px;
   margin: 30px;
   background-color: #24272E;
@@ -201,15 +220,61 @@ body main .titProductos {
     color: white;
     text-align: center;
     font-size: 11px; }
+  body main .mona {
+    background-image: url("../images/favicon.png"); }
+  body main section .titAyuda {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  body main section .titContacto {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  body main section .titSomos {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  body main section .titProductos {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
   body main section .fotoHorarios {
     width: 280px; }
   body main section .titAyuda {
     text-align: center;
     font-weight: normal;
-    font-family: 'Amatic SC', cursive;
     font-family: 'Cinzel', serif;
     font-size: 25px;
     letter-spacing: 8px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  body main .imagenesIndex .titDestacados {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 6px;
     margin: 30px;
     background-color: #24272E;
     color: white; }
@@ -221,22 +286,30 @@ body main .titProductos {
     transform: scale(1.2, 1.2);
     transition: all 1s ease;
     border: black 1px solid; }
-  body main .imagenesIndex .imgDestacada .titDestacados {
-    text-align: center;
-    font-weight: normal;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Cinzel', serif;
-    font-size: 25px;
-    letter-spacing: 8px;
-    margin: 30px;
-    background-color: #24272E;
-    color: white; }
+  body main .tamanio {
+    padding: 2px; }
   body header .cuota {
     font-size: 13px; }
   body header .titFrizka {
-    font-family: 'Amatic SC', cursive;
     font-family: 'Cinzel', serif;
     font-size: 40px;
     letter-spacing: 13px;
     padding: 10px;
-    text-align: center; } }
+    text-align: center; }
+  .bodyNosotros main section .titSomos {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin: 30px;
+    background-color: #24272E;
+    color: white; }
+  .bodyNosotros main section .monita {
+    width: 200px; } }
+
+@media (max-width: 425px) {
+  .bodyNosotros {
+    background-image: url("../images/Bagsss.png");
+    background-repeat: repeat;
+    background-size: auto; } }

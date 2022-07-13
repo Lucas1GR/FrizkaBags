@@ -12,6 +12,10 @@
 
 body{ 
     background: whitesmoke;
+    p{
+        font-family: 'Cinzel', serif;
+        font-size: 20px;
+    }
     h3{
         text-align: center;
         font-weight: normal;
@@ -20,10 +24,6 @@ body{
         background-color: #DAD2BC;
         color: black;
     }
-    p{
-        font-family: 'Cinzel', serif;
-        font-size: 20px;
-    }
     header{
         .cuota{
             background-color: black;
@@ -31,7 +31,7 @@ body{
             text-align: center;
             font-size: 18px;
         }
-        background: #C4B9AB;
+        background: #eaebee;
         .titFrizka{
             font-family: 'Cinzel', serif;
             font-size: 45px;
@@ -59,20 +59,23 @@ body{
             }
         }
     }
-
-/* Footer */
-
+    /* Footer */
     footer{
         background: #C6CAD2;
+        .foChiqui{
+            font-size: 16px;
+        }
         .frizkaLogo{
             width: 200px;
         }
         h6{
+            margin-top: 5px;
             background-color: #24272E;
             color: white;
             text-align: center;
         }
         h5{
+            margin-top: 5px;
             background-color: #24272E;
             color: white;
             text-align: center; 
@@ -81,7 +84,7 @@ body{
             font-family: 'Finlandica', sans-serif;
             background: #C6CAD2;
             text-align: center;
-            font-size: 15px;
+            font-size: 13px;
             margin: auto;
         }
         nav{
@@ -116,9 +119,8 @@ body{
             .titDestacados{
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Amatic SC', cursive;
                 font-family: 'Cinzel', serif;
-                font-size: 45px;
+                font-size: 35px;
                 letter-spacing: 8px;
                 margin: 30px;
                 background-color: #24272E;
@@ -142,8 +144,12 @@ body{
                     border: black 1px solid;
                 }
             }
-            section{
-                // background-image: url('../images/frizka\ sin\ mona.jpeg');
+             .tamanio{
+                padding: 25px;
+            } 
+            .mona{
+                background-image: url('../images/friska\ png\ 2\ \(1\)\ \(1\).png');
+                background-position: -13px 20px;
             }
         }
     }
@@ -152,13 +158,16 @@ body{
 
 body{
     main{
-        section{              
+        section{
+            .respuestas{
+               font-size: 20px;
+               text-align: center; 
+            }              
             .titAyuda{
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Amatic SC', cursive;
                 font-family: 'Cinzel', serif;
-                font-size: 45px;
+                font-size: 35px;
                 letter-spacing: 8px;
                 margin: 30px;
                 background-color: #24272E;
@@ -176,9 +185,8 @@ body{
             .titContacto{
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Amatic SC', cursive;
                 font-family: 'Cinzel', serif;
-                font-size: 45px;
+                font-size: 35px;
                 letter-spacing: 8px;
                 margin: 30px;
                 background-color: #24272E;
@@ -207,15 +215,19 @@ body{
 
 /* Estilos Nosotros */
 
-body{
+.bodyNosotros{
+        background-image: url('../images/Bags.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     main{
         section{ 
             .titSomos{
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Amatic SC', cursive;
                 font-family: 'Cinzel', serif;
-                font-size: 45px;
+                font-size: 35px;
                 letter-spacing: 8px;
                 margin: 30px;
                 background-color: #24272E;
@@ -223,11 +235,16 @@ body{
             }
             .flexNos{
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
                 .nosP{
-                    padding: 100px;
+                    padding: 15px;
                     color: black;
                 }
+            }
+            .monita{
+                width: 450px;
             }
         }
     }
@@ -240,9 +257,8 @@ body{
         .titProductos{
             text-align: center;
             font-weight: normal;
-            font-family: 'Amatic SC', cursive;
             font-family: 'Cinzel', serif;
-            font-size: 45px;
+            font-size: 35px;
             letter-spacing: 8px;
             margin: 30px;
             background-color: #24272E;
@@ -290,14 +306,56 @@ body{
             }
         }
         main{
+            .mona{
+                background-image: url('../images/favicon.png');
+            }
             section{
+                .titAyuda{
+                    text-align: center;
+                    font-weight: normal;
+                    font-family: 'Cinzel', serif;
+                    font-size: 25px;
+                    letter-spacing: 6px;
+                    margin: 30px;
+                    background-color: #24272E;
+                    color: white;
+                }
+                .titContacto{
+                    text-align: center;
+                    font-weight: normal;
+                    font-family: 'Cinzel', serif;
+                    font-size: 25px;
+                    letter-spacing: 6px;
+                    margin: 30px;
+                    background-color: #24272E;
+                    color: white;
+                }
+                .titSomos{
+                    text-align: center;
+                    font-weight: normal;
+                    font-family: 'Cinzel', serif;
+                    font-size: 25px;
+                    letter-spacing: 6px;
+                    margin: 30px;
+                    background-color: #24272E;
+                    color: white;
+                }
+                .titProductos{
+                    text-align: center;
+                    font-weight: normal;
+                    font-family: 'Cinzel', serif;
+                    font-size: 25px;
+                    letter-spacing: 6px;
+                    margin: 30px;
+                    background-color: #24272E;
+                    color: white;
+                }
                 .fotoHorarios{
                     width: 280px;
                 }
                 .titAyuda{
                     text-align: center;
                     font-weight: normal;
-                    font-family: 'Amatic SC', cursive;
                     font-family: 'Cinzel', serif;
                     font-size: 25px;
                     letter-spacing: 8px;
@@ -307,6 +365,16 @@ body{
                 }
             }
             .imagenesIndex{
+                .titDestacados{
+                    text-align: center;
+                    font-weight: normal;
+                    font-family: 'Cinzel', serif;
+                    font-size: 25px;
+                    letter-spacing: 6px;
+                    margin: 30px;
+                    background-color: #24272E;
+                    color: white;
+                }
                 .imgDestacada{
                     .bordeRedondeado{
                         border-radius: 25%;
@@ -317,19 +385,11 @@ body{
                         transform: scale(1.2, 1.2);
                         transition: all 1s ease;
                         border: black 1px solid;
-                }
-                .titDestacados{
-                    text-align: center;
-                    font-weight: normal;
-                    font-family: 'Amatic SC', cursive;
-                    font-family: 'Cinzel', serif;
-                    font-size: 25px;
-                    letter-spacing: 8px;
-                    margin: 30px;
-                    background-color: #24272E;
-                    color: white;
+                    }
                 }
             }
+        .tamanio{
+            padding: 2px;
         }
         }
         header{
@@ -337,7 +397,6 @@ body{
                 font-size: 13px;
             }
             .titFrizka{
-                font-family: 'Amatic SC', cursive;
                 font-family: 'Cinzel', serif;
                 font-size: 40px;
                 letter-spacing: 13px;
@@ -345,5 +404,32 @@ body{
                 text-align: center;
             }
         }
+    }
+    .bodyNosotros{
+        main{
+            section{
+                .titSomos{
+                    text-align: center;
+                    font-weight: normal;
+                    font-family: 'Cinzel', serif;
+                    font-size: 25px;
+                    letter-spacing: 6px;
+                    margin: 30px;
+                    background-color: #24272E;
+                    color: white;
+                }
+                .monita{
+                    width: 200px;
+
+                }
+            }
+        }
+    }
+}
+@media (max-width: 425px){
+    .bodyNosotros{
+        background-image: url('../images/Bagsss.png');
+        background-repeat: repeat;
+        background-size: auto;
     }
 }
